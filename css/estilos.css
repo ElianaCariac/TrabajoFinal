@@ -1,0 +1,1264 @@
+/* PARA TODOS LOS ELEMENTOS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+
+}
+
+main {
+    min-height: 100vh;
+}
+
+
+
+/* HEADER */
+.encabezado {
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: #000000;
+    max-height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #b80a13;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50rem;
+    margin-top: 1.5rem;
+}
+
+.secciones-nav,
+.encabezado-redes {
+    margin-left: 2rem;
+}
+
+.nav-enlace,
+.redes-nav {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* FIN HEADER */
+
+
+/* PRESENTACIÓN INDEX*/
+.imagen-presentacion {
+    display: flex;
+    flex-direction: row;
+}
+
+.inicio-presentacion1 {
+    background: linear-gradient(90deg, rgba(216, 217, 221, 1) 21%, rgba(185, 8, 18, 1) 21%);
+    color: #ffffff;
+    display: flex;
+}
+
+.info-presentacion {
+    padding-left: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.hola {
+    font-size: 3rem;
+}
+
+.bienvenido {
+    line-height: 1.8;
+}
+
+.hola,
+.bienvenido,
+.presentacion1,
+.presentacion2,
+.presentacion3,
+.presentacion4 {
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    margin-right: 2rem;
+}
+
+/* FIN PRESENTACIÓN INDEX*/
+
+
+/* SERVICIOS INDEX*/
+.lista-servicios1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    gap: 1rem;
+}
+
+.lista-servicios2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 2em;
+
+
+    gap: 1rem;
+}
+
+.serv {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.titulo-principal {
+    color: #b80a13;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 1em;
+    font-weight: 700;
+}
+
+.lista-servicios1 .serv h3 {
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px
+}
+
+.lista-servicios2 .serv h3 {
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px
+}
+
+.lista-servicios1 .serv p {
+    color: #b80a13;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.lista-servicios2 .serv p {
+    color: #b80a13;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.lista-servicios1 .serv img {
+    align-self: center;
+}
+
+.lista-servicios2 .serv img {
+    align-self: center;
+}
+
+/* FIN DE SERVICIOS INDEX*/
+
+/* INICIO HERRAMIENTAS Y CONOCIMIENTOS DE INDEX */
+.herramientas-conocimientos {
+    background-color: #eee;
+    margin-top: 3em;
+    padding-bottom: 3em;
+}
+
+.herramientas-conocimientos .titulo-principal {
+    padding-bottom: 1rem;
+
+}
+
+.herramientas-conocimientos .progress {
+    background-color: #ffffff;
+}
+
+.herramientas-conocimientos .progress-bar {
+    background-color: #b80a13;
+}
+
+.herramientas-conocimientos p {
+    margin-bottom: 0px;
+}
+
+.herramientas-conocimientos .conocimiento {
+    margin-bottom: -20px;
+    width: 400px;
+    height: 100px;
+    padding: 2rem;
+}
+
+.herramientas-conocimientos .conocimientos1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    gap: 1rem;
+}
+
+.herramientas-conocimientos .conocimientos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    gap: 1rem;
+}
+
+.herramientas-conocimientos .conocimientos3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    gap: 1rem;
+}
+
+.herramientas-conocimientos .conocimientos4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 1rem;
+}
+
+
+/* FIN HERRAMIENTAS Y CONOCIMIENTOS DE INDEX */
+
+
+/* TRABAJOS INDEX */
+.trabajos-bs {
+    margin-top: 1rem;
+}
+
+.trabajos-bs .titulo-principal {
+    padding-bottom: 2rem;
+
+}
+
+.galeria-trabajos1-bs h3 {
+    text-align: center;
+    color: #b80a13;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.galeria-trabajos1-bs {
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.trabajos-bs1 img,
+.trabajos-bs2 img {
+    border-radius: 5px 5px;
+}
+
+.trabajos-bs2 {
+    margin-top: 2rem;
+}
+
+.trabajos-bs1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    gap: 1rem;
+}
+
+.trabajos-bs2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 1em;
+
+
+    gap: 1rem;
+}
+
+.trabajos-bs1 .item img {
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.trabajos-bs2 .item img {
+    align-self: center;
+    margin-top: 2rem;
+
+}
+
+
+.trabajos-bs .row {
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.trabajos-bs1 h3,
+.trabajos-bs2 h3 {
+    text-align: center;
+    color: #b80a13;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.trabajos-bs1 p,
+.trabajos-bs2 p {
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.trabajos-bs1 img,
+.trabajos-bs2 img {
+    border-radius: 5px 5px;
+}
+
+.trabajos-bs2 {
+    margin-top: 2rem;
+}
+
+.trabajos-bs .ver-mas {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: right;
+    padding-right: 14em;
+    color: #b80a13;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.trabajos-bs .ver-mas a {
+    text-decoration: none;
+    color: #b80a13;
+    text-transform: uppercase;
+}
+
+/* FIN DE TRABAJOS */
+
+/* PIE DE PÁGINA */
+.pie-pagina {
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: #000000;
+    max-height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+    color: #ffffff;
+    font-size: small;
+}
+
+.encabezado-redes {
+    margin-left: 2rem;
+}
+
+.redes-nav {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* FIN PIE DE PÁGINA */
+
+/* TRABAJOS PÁGINA DE TRABAJOS*/
+
+.trabajos-realizados-bs {
+    background-color: #eee;
+    padding-bottom: 3em;
+}
+
+.trabajos-realizados-bs .titulo-principal {
+    color: #b80a13;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 1em;
+}
+
+.trabajos-realizados-bs .subtitulo-a,
+.trabajos-realizados-bs .subtitulo-b,
+.trabajos-realizados-bs .subtitulo-c {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.trabajos-realizados-bs .subtitulo2 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    font-weight: 700;
+    color: #b80a13;
+}
+
+.galeria-trabajos1-bs,
+.galeria-trabajos2-bs,
+.galeria-trabajos3-bs,
+.galeria-trabajos4-bs,
+.galeria-trabajos5-bs,
+.galeria-trabajos6-bs {
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.galeria-trabajos1-bs img,
+.galeria-trabajos2-bs img,
+.galeria-trabajos3-bs img,
+.galeria-trabajos4-bs img,
+.galeria-trabajos5-bs img,
+.galeria-trabajos6-bs img {
+    border-radius: 5px 5px;
+}
+
+.galeria-trabajos-bs,
+.galeria-trabajos2-bs,
+.galeria-trabajos3-bs,
+.galeria-trabajos4-bs,
+.galeria-trabajos5-bs,
+.galeria-trabajos6-bs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    gap: 1rem;
+}
+
+.galeria-trabajos2-bs,
+.galeria-trabajos3-bs,
+.galeria-trabajos4-bs,
+.galeria-trabajos5-bs,
+.galeria-trabajos6-bs {
+    margin-top: 2rem;
+}
+
+.galeria-trabajos1-bs .item img,
+.galeria-trabajos2-bs .item img,
+.galeria-trabajos3-bs .item img,
+.galeria-trabajos4-bs .item img,
+.galeria-trabajos5-bs .item img,
+.galeria-trabajos6-bs .item img {
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.trabajos-realizados-bs .row {
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.galeria-trabajos1-bs h3,
+.galeria-trabajos2-bs h3,
+.galeria-trabajos3-bs h3,
+.galeria-trabajos4-bs h3,
+.galeria-trabajos5-bs h3,
+.galeria-trabajos6-bs h3 {
+    text-align: center;
+    color: #b80a13;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 1rem;
+
+}
+
+.galeria-trabajos1-bs p,
+.galeria-trabajos2-bs p,
+.galeria-trabajos3-bs p,
+.galeria-trabajos4-bs p,
+.galeria-trabajos5-bs p,
+.galeria-trabajos6-bs p {
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 2rem;
+}
+
+.galeria-trabajos1-bs img,
+.galeria-trabajos2-bs img,
+.galeria-trabajos3-bs img,
+.galeria-trabajos4-bs img,
+.galeria-trabajos5-bs img,
+.galeria-trabajos6-bs img {
+    border-radius: 5px 5px;
+}
+
+
+/* FIN TRABAJOS PÁGINA DE TRABAJOS*/
+
+/* VIDEOS PÁGINA DE TRABAJOS*/
+.videos-yb {
+    width: 100%;
+    background-color: #ffffff;
+    align-self: center;
+    margin-bottom: 1em;
+}
+
+.videos-yb h4 {
+    color: #b80a13;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 1em;
+}
+
+.txt-videos {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.txt-videos2 {
+    color: #b80a13;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 1em;
+    font-weight: 700;
+
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 1rem;
+}
+
+.videos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    gap: 1rem;
+}
+
+.videos-yb .tutorial {
+    width: 373px;
+    height: 225px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* FIN VIDEOS PÁGINA DE TRABAJOS*/
+
+
+/* PÁGINA DE CONTACTO*/
+.contacto {
+    background-color: #eee;
+    padding-bottom: 3em;
+}
+
+.contacto h4 {
+    color: #b80a13;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 1em;
+}
+
+.contacto .sub-a,
+.contacto .sub-b,
+.contacto .sub-c {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.contacto .sub-a {
+    font-size: x-large;
+}
+
+.contacto .correo {
+    color: #b80a13;
+    font-weight: 700;
+
+}
+
+.form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #b80a13;
+    padding-left: 30px;
+}
+
+
+.form input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b80a13;
+    margin-top: 1em;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+.form textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b80a13;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+.form label {
+    display: block;
+    color: #ffffff;
+}
+
+
+.form p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.boton-enviar {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+.mapa {
+    margin-bottom: -1rem;
+}
+
+/* FIN PÁGINA DE CONTACTO*/
+
+
+
+/* MEDIA QUERY - TABLET */
+@media (max-width: 1023px) {
+
+    .body {
+        max-width: 100%;
+    }
+
+    .imagen-presentacion {
+        display: none;
+    }
+
+    .info-presentacion {
+        background-color: #b80a13;
+    }
+
+    .encabezado .logo-personal {
+        margin-left: 20px;
+    }
+
+    .lista {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-left: 5rem;
+    }
+
+    .info-presentacion {
+        padding-left: 4rem;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .trabajos .galeria1,
+    .trabajos .galeria2,
+    .trabajos-realizados .galeria-trabajos1,
+    .trabajos-realizados .galeria-trabajos2,
+    .trabajos-realizados .galeria-trabajos3,
+    .trabajos-realizados .galeria-trabajos4,
+    .trabajos-realizados .galeria-trabajos5,
+    .trabajos-realizados .galeria-trabajos6,
+    .trabajos-realizados .galeria-trabajos7 {
+        width: 80%;
+        align-content: center;
+        margin-bottom: 70px;
+    }
+
+
+    .item,
+    .item-trabajo,
+    .item-trabajo2,
+    .item-trabajo3,
+    .item-trabajo4,
+    .item-trabajo5,
+    .item-trabajo6,
+    .item-trabajo7 {
+        width: 300px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #ffffff;
+
+    }
+
+    .galeria1 .item img {
+        align-self: center;
+    }
+
+    .galeria2 .item img {
+        align-self: center;
+    }
+
+
+
+    .galeria1 {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+
+
+        gap: 1rem;
+    }
+
+    .galeria2 {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 1rem;
+
+
+        gap: 1rem;
+    }
+
+    .galeria-trabajos1,
+    .galeria-trabajos2,
+    .galeria-trabajos3,
+    .galeria-trabajos4,
+    .galeria-trabajos5,
+    .galeria-trabajos6,
+    .galeria-trabajos7 {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+
+
+        gap: 1rem;
+    }
+
+
+    .galeria1 .item p,
+    .galeria-trabajos1 p,
+    .galeria-trabajos2 p,
+    .galeria-trabajos3 p,
+    .galeria-trabajos4 p,
+    .galeria-trabajos5 p,
+    .galeria-trabajos6 p,
+    .galeria-trabajos7 p {
+        color: #000000;
+        text-align: center;
+        font-weight: 500;
+        padding-bottom: 4rem;
+
+    }
+
+    .galeria2 .item p {
+        color: #000000;
+        text-align: center;
+        font-weight: 500;
+        padding-bottom: 4em;
+
+    }
+
+    .trabajos h4 {
+        padding-bottom: 3em;
+    }
+
+    .trabajos-realizados .subtitulo2 {
+        padding-bottom: 5em;
+        padding-top: 1em;
+        color: #b80a13;
+    }
+
+    .trabajos .ver-mas {
+        margin-top: -3em;
+        padding-bottom: 2em;
+        text-align: right;
+        padding-right: 3em;
+        color: #b80a13;
+        font-weight: 700;
+    }
+
+}
+
+/* FIN MEDIA QUERY - TABLET */
+
+
+
+/* MEDIA QUERY - MÓVIL */
+@media (max-width: 600px) {
+    .imagen-presentacion {
+        display: none;
+    }
+
+    .info-presentacion {
+        background-color: #b80a13;
+    }
+
+    .encabezado .logo-personal {
+        margin-left: 0px;
+    }
+
+    .lista {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .encabezado-redes {
+        display: none;
+    }
+
+    .encabezado .navegacion {
+        margin-left: -2rem;
+    }
+
+    .info-presentacion {
+        padding-left: 3rem;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+        line-height: 5rem;
+    }
+
+
+    .titulo-principal,
+    .trabajos-realizados-bs .titulo-principal,
+    .videos-yb .titulo-principal,
+    .contacto .titulo-principal {
+        font-size: 22px;
+    }
+
+    .contacto .sub-a{
+        font-size: 18px;
+        margin-top: -1rem;
+    }
+
+    .presentacion1,
+    .presentacion2,
+    .presentacion3,
+    .presentacion4 {
+        line-height: 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-right: 2rem;
+    }
+
+    .servicios1 {
+        max-width: 600px;
+        align-self: center;
+
+    }
+
+    .serv {
+        width: 200px;
+        height: 250px;
+        margin: -3rem;
+    }
+
+
+    .serv img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .lista-servicios1 .serv {
+        align-self: center;
+        display: flex;
+        padding: 0.5rem;
+        margin-top: -4rem;
+
+    }
+
+    .lista-servicios2 .serv {
+        align-self: center;
+        display: flex;
+        margin-top: -5rem;
+
+    }
+
+    .lista-servicios1 .serv h3 {
+        text-align: center;
+        color: #000000;
+        font-size:10px;
+
+
+    }
+
+    .lista-servicios2 .serv h3 {
+        text-align: center;
+        color: #000000;
+        font-size:10px;
+    }
+
+    .lista-servicios1 .serv p {
+        display: none;
+    }
+
+    .lista-servicios2 .serv p {
+        display: none;
+    }
+
+    .lista-servicios1,
+    .lista-servicios2 {
+        max-height: 200px;
+        margin: 0%;
+    }
+
+    .herramientas-conocimientos {
+        margin-top: 10px;
+        align-self: center;
+        justify-content: center;
+        
+        width: 600px;
+
+    }
+
+    .herramientas-conocimiento {
+        margin-top: 1rem;
+        align-self: center;
+        justify-content: center;
+        
+
+    }
+
+    .herramientas-conocimientos .progress {
+        background-color: #ffffff;
+        width: 400px;
+        margin-left: 60px;
+
+
+    }
+    
+    .herramientas-conocimientos .progress-bar {
+        background-color: #b80a13;
+
+    }
+
+    .herramientas-conocimientos p {
+        margin-bottom: 0px;
+        margin-left: 60px;
+        
+    }
+
+    .herramientas-conocimientos .conocimientos1,
+    .herramientas-conocimientos .conocimientos2,
+    .herramientas-conocimientos .conocimientos3,
+    .herramientas-conocimientos .conocimientos4 {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: flex-start;
+    
+    
+        gap: 1rem;
+    }
+
+    .trabajos-bs {
+        width: 600px;
+    }
+
+    .trabajos-bs .card,
+    .trabajos-bs2 .card {
+        width: 160px;
+        margin-left: 2rem;
+    }
+
+    .trabajos-bs .card p,
+    .trabajos-bs2 .card p{
+        font-size:  10px;
+    }
+
+    .trabajos-bs .card h3,
+    .trabajos-bs2 .card h3{
+        font-size:  16px;
+    }
+
+    .trabajos-bs1,
+    .trabajos-bs2 {
+        margin-left: -5rem;
+    }
+
+
+
+
+
+
+    .trabajos-realizados-bs {
+        width: 600px;
+    }
+
+    .galeria-trabajos1-bs {
+        padding-left: -2rem;
+        padding-right: -15rem;
+    }
+
+    .galeria-trabajos1-bs .card,
+    .galeria-trabajos2-bs .card,
+    .galeria-trabajos3-bs .card,
+    .galeria-trabajos4-bs .card,
+    .galeria-trabajos5-bs .card,
+    .galeria-trabajos6-bs .card {
+        width: 160px;
+        margin-left: -2rem;
+        margin-right: 6rem;
+                
+    }
+
+    .galeria-trabajos1-bs .card p,
+    .galeria-trabajos2-bs .card p,
+    .galeria-trabajos3-bs .card p,
+    .galeria-trabajos4-bs .card p,
+    .galeria-trabajos5-bs .card p,
+    .galeria-trabajos6-bs .card p {
+        font-size:  10px;
+    }
+
+    .galeria-trabajos1-bs .card h3,
+    .galeria-trabajos2-bs .card h3,
+    .galeria-trabajos3-bs .card h3,
+    .galeria-trabajos4-bs .card h3,
+    .galeria-trabajos5-bs .card h3,
+    .galeria-trabajos6-bs .card h3{
+        font-size:  16px;
+    }
+
+  
+
+
+
+
+
+
+    .trabajos .galeria1,
+    .trabajos .galeria2,
+    .trabajos-realizados .galeria-trabajos1,
+    .trabajos-realizados .galeria-trabajos2,
+    .trabajos-realizados .galeria-trabajos3,
+    .trabajos-realizados .galeria-trabajos4,
+    .trabajos-realizados .galeria-trabajos5,
+    .trabajos-realizados .galeria-trabajos6,
+    .trabajos-realizados .galeria-trabajos7 {
+        width: 200px;
+        align-content: center;
+        margin-bottom: 70px;
+    }
+
+
+    .item,
+    .item-trabajo,
+    .item-trabajo2,
+    .item-trabajo3,
+    .item-trabajo4,
+    .item-trabajo5,
+    .item-trabajo6,
+    .item-trabajo7 {
+        width: 250px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #ffffff;
+
+    }
+
+    .galeria1 .item img {
+        align-self: center;
+    }
+
+    .galeria2 .item img {
+        align-self: center;
+    }
+
+
+
+    .galeria1 {
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: flex-start;
+
+
+        gap: 1rem;
+    }
+
+    .galeria2 {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 1rem;
+
+
+        gap: 1rem;
+    }
+
+    .galeria-trabajos1-bs,
+    .galeria-trabajos2-bs,
+    .galeria-trabajos3-bs,
+    .galeria-trabajos4-bs,
+    .galeria-trabajos5-bs,
+    .galeria-trabajos6-bs,
+    .galeria-trabajos7-bs {
+        margin: auto;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: flex-start;
+
+
+        gap: 1rem;
+    }
+
+
+    .galeria1 .item p,
+    .galeria-trabajos1 p,
+    .galeria-trabajos2 p,
+    .galeria-trabajos3 p,
+    .galeria-trabajos4 p,
+    .galeria-trabajos5 p,
+    .galeria-trabajos6 p,
+    .galeria-trabajos7 p {
+        color: #000000;
+        text-align: center;
+        font-weight: 500;
+        padding-bottom: 4rem;
+
+    }
+
+    .galeria2 .item p {
+        color: #000000;
+        text-align: center;
+        font-weight: 500;
+        padding-bottom: 4em;
+
+    }
+
+    .trabajos h4 {
+        padding-bottom: 3em;
+    }
+
+    .trabajos-realizados .subtitulo2 {
+        padding-bottom: 5em;
+        padding-top: 1em;
+        color: #b80a13;
+    }
+
+    .trabajos .ver-mas {
+        margin-top: -3em;
+        padding-bottom: 22rem;
+        text-align: right;
+        padding-right: 1em;
+        color: #b80a13;
+        font-weight: 700;
+    }
+
+
+
+
+
+
+
+
+}
+
+/* FIN MEDIA QUERY - MÓVIL */
+
+
+
+
+
+
+
+
+
+
