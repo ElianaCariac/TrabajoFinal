@@ -908,6 +908,21 @@ a:hover {
         line-height: 5rem;
     }
 
+    .trabajos-realizados-bs .subtitulo-a,
+    .trabajos-realizados-bs .subtitulo-b,
+    .trabajos-realizados-bs .subtitulo-c,
+    .trabajos-realizados-bs .subtitulo2,
+    .videos-yb .titulo-principal,
+    .videos-yb .txt-videos,
+    .contacto .sub-a,
+    .contacto .sub-b,
+    .contacto .sub-c {
+        max-width: 500px;
+        text-align: center;
+        align-self: center;
+        margin-left: 50px;
+
+    }
 
     .titulo-principal,
     .trabajos-realizados-bs .titulo-principal,
@@ -916,7 +931,7 @@ a:hover {
         font-size: 22px;
     }
 
-    .contacto .sub-a{
+    .contacto .sub-a {
         font-size: 18px;
         margin-top: -1rem;
     }
@@ -966,7 +981,7 @@ a:hover {
     .lista-servicios1 .serv h3 {
         text-align: center;
         color: #000000;
-        font-size:10px;
+        font-size: 10px;
 
 
     }
@@ -974,7 +989,7 @@ a:hover {
     .lista-servicios2 .serv h3 {
         text-align: center;
         color: #000000;
-        font-size:10px;
+        font-size: 10px;
     }
 
     .lista-servicios1 .serv p {
@@ -995,7 +1010,8 @@ a:hover {
         margin-top: 10px;
         align-self: center;
         justify-content: center;
-        
+        margin-bottom: -1rem;
+
         width: 600px;
 
     }
@@ -1004,18 +1020,19 @@ a:hover {
         margin-top: 1rem;
         align-self: center;
         justify-content: center;
-        
+
+
 
     }
 
     .herramientas-conocimientos .progress {
         background-color: #ffffff;
-        width: 400px;
+        width: 420px;
         margin-left: 60px;
 
 
     }
-    
+
     .herramientas-conocimientos .progress-bar {
         background-color: #b80a13;
 
@@ -1024,7 +1041,27 @@ a:hover {
     .herramientas-conocimientos p {
         margin-bottom: 0px;
         margin-left: 60px;
-        
+
+    }
+
+    .herramientas-conocimientos .conocimiento {
+        margin-top: -3rem;
+    }
+
+    .conocimientos1 {
+        margin-top: 1rem;
+    }
+
+    .conocimientos2 {
+        margin-top: 1rem;
+    }
+
+    .conocimientos3 {
+        margin-top: 1rem;
+    }
+
+    .conocimientos4 {
+        margin-top: 1rem;
     }
 
     .herramientas-conocimientos .conocimientos1,
@@ -1032,11 +1069,11 @@ a:hover {
     .herramientas-conocimientos .conocimientos3,
     .herramientas-conocimientos .conocimientos4 {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-    
-    
+
+
         gap: 1rem;
     }
 
@@ -1051,24 +1088,19 @@ a:hover {
     }
 
     .trabajos-bs .card p,
-    .trabajos-bs2 .card p{
-        font-size:  10px;
+    .trabajos-bs2 .card p {
+        font-size: 10px;
     }
 
     .trabajos-bs .card h3,
-    .trabajos-bs2 .card h3{
-        font-size:  16px;
+    .trabajos-bs2 .card h3 {
+        font-size: 16px;
     }
 
     .trabajos-bs1,
     .trabajos-bs2 {
         margin-left: -5rem;
     }
-
-
-
-
-
 
     .trabajos-realizados-bs {
         width: 600px;
@@ -1085,10 +1117,10 @@ a:hover {
     .galeria-trabajos4-bs .card,
     .galeria-trabajos5-bs .card,
     .galeria-trabajos6-bs .card {
-        width: 160px;
-        margin-left: -2rem;
-        margin-right: 6rem;
-                
+        width: 155px;
+        margin-left: -1rem;
+        margin-right: 15rem;
+
     }
 
     .galeria-trabajos1-bs .card p,
@@ -1097,7 +1129,7 @@ a:hover {
     .galeria-trabajos4-bs .card p,
     .galeria-trabajos5-bs .card p,
     .galeria-trabajos6-bs .card p {
-        font-size:  10px;
+        font-size: 10px;
     }
 
     .galeria-trabajos1-bs .card h3,
@@ -1105,16 +1137,9 @@ a:hover {
     .galeria-trabajos3-bs .card h3,
     .galeria-trabajos4-bs .card h3,
     .galeria-trabajos5-bs .card h3,
-    .galeria-trabajos6-bs .card h3{
-        font-size:  16px;
+    .galeria-trabajos6-bs .card h3 {
+        font-size: 16px;
     }
-
-  
-
-
-
-
-
 
     .trabajos .galeria1,
     .trabajos .galeria2,
@@ -1156,13 +1181,11 @@ a:hover {
         align-self: center;
     }
 
-
-
     .galeria1 {
         max-width: 600px;
         margin: auto;
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         justify-content: center;
         align-items: flex-start;
 
@@ -1191,7 +1214,7 @@ a:hover {
     .galeria-trabajos7-bs {
         margin: auto;
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         justify-content: center;
         align-items: flex-start;
 
@@ -1233,17 +1256,52 @@ a:hover {
         color: #b80a13;
     }
 
-    .trabajos .ver-mas {
-        margin-top: -3em;
-        padding-bottom: 22rem;
-        text-align: right;
-        padding-right: 1em;
+    .trabajos-bs .ver-mas {
+        text-align: center;
+        margin-left: 2rem;
         color: #b80a13;
         font-weight: 700;
     }
 
+    .redes-nav {
+        display: none;
+    }
 
+    .pie-pagina p {
+        text-align: center;
+        align-self: center;
+        margin-left: 7rem;
 
+    }
+
+    .videos {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: flex-start;
+    
+        gap: 1rem;
+    }
+    
+    .videos2 {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: flex-start;
+    
+    
+        gap: 1rem;
+    }
+    
+    .videos-yb .tutorial {
+        width: 560px;
+        height: 315px;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 1rem;
+    }
 
 
 
@@ -1252,13 +1310,3 @@ a:hover {
 }
 
 /* FIN MEDIA QUERY - MÓVIL */
-
-
-
-
-
-
-
-
-
-
